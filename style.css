@@ -1,0 +1,46 @@
+.form input{
+    width: 400px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 2px solid black;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url(./Blue-Abstract-Background-4K-Wallpaper-jpg.webp) center/cover;
+}
+.container{
+    width: 450px;
+    height: 370px;
+    display: block;
+    margin-top: -250px;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.form{
+    margin-left: 20px;
+}
+#btn{
+    width: 160px;
+    margin-left: 119px;
+    border: none;
+    border-radius: 25px;
+    background: green;
+    font-size: 20px;
+    color: white;
+    margin-top: -20px;
+}
+@media screen and(max-width:170px) {
+    .container{
+        background: url(./269dea3fbbc9edf9595b5109f50ffd1d.jpg) center/cover;
+    }
+}

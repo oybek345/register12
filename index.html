@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Ishga qabul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="form">
+        <form action="" onsubmit=" return sendtelegram()">
+            <input type="text" name="name" id="name" placeholder="Ismingiz" required>
+            <input type="number" name="email" id="email" placeholder="yoshingiz" required> <br> 
+             <input type="text" id="message" placeholder="Mashinangiz bormi?(ha/yoq)"><br>
+            <br> <br>
+            <input type="submit" value="Yuborish" id="btn">
+        </form>
+    </div>
+</div>
+    <script src="sendtelegram.js"></script>
+</body>
+
+</html>
